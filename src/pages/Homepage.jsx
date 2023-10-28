@@ -1,13 +1,14 @@
 import "../CSS files/Homepage.css";
+import profile from "../images/profile.png";
+import cat from "../images/catmarket.png";
+import weather from "../images/weatherapp.png";
+import game from "../images/game.png";
 const Homepage = () => {
   return (
     <>
       <div className="first-panel">
         <h1>Full stack developer🌺</h1>
-        <img
-          src="https://t4.ftcdn.net/jpg/05/49/98/39/360_F_549983970_bRCkYfk0P6PP5fKbMhZMIb07mCJ6esXL.jpg"
-          style={{ width: "150px" }}
-        />
+        <img src={profile} style={{ width: "150px" }} className="profile-pic" />
         <h3>Hi, my name is Marina</h3>
         <h5>Welcome to my portfolio</h5>
       </div>
@@ -46,10 +47,7 @@ const Homepage = () => {
             >
               <h3>Platform to buy and sell cats</h3>
               <h5>Web app using React and a json server</h5>
-              <img
-                src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
-                style={{ width: "100px" }}
-              />
+              <img src={cat} style={{ width: "200px" }} />
             </a>
           </div>
           <div className="homepage-project">
@@ -59,10 +57,7 @@ const Homepage = () => {
             >
               <h3>Cute game</h3>
               <h5>Using JavaScript, HTML and CSS</h5>
-              <img
-                src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
-                style={{ width: "100px" }}
-              />
+              <img src={game} style={{ width: "220px" }} />
             </a>
           </div>
           <div className="homepage-project">
@@ -72,10 +67,7 @@ const Homepage = () => {
             >
               <h3>Weather app</h3>
               <h5>React app using an external API to fetch the data</h5>
-              <img
-                src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
-                style={{ width: "100px" }}
-              />
+              <img src={weather} style={{ width: "200px" }} />
             </a>
           </div>
         </div>
@@ -87,7 +79,7 @@ const Homepage = () => {
           <a href="mailto:marinacerejidoo@gmail.com" target="_blank">
             {" "}
             <img
-              src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"
+              src="https://static-00.iconduck.com/assets.00/mail-icon-2048x2048-525ey8hu.png"
               style={{ width: "40px" }}
             />
           </a>

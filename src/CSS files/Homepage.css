@@ -3,11 +3,14 @@ body {
 }
 
 /*FIRST PANEL*/
-.first-panel{
-    margin-top: 120px;
-    margin-bottom: 120px;
+.first-panel {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
-
+.profile-pic {
+  border-radius: 90px;
+  filter: drop-shadow(0 0 0.75rem white);
+}
 /*SECOND PANEL - TECHNOLOGIES*/
 .second-panel {
   padding-top: 40px;
@@ -19,6 +22,9 @@ body {
   border-radius: 15px;
 }
 /*THIRD PANEL - PROJECTS*/
+h1 {
+  margin-bottom: 80px;
+}
 .third-panel {
   padding-top: 40px;
   padding-bottom: 60px;
@@ -32,8 +38,16 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   padding: 15px 20px;
+  background-color: white;
 }
-
+.third-panel a {
+  color: #213547;
+  text-decoration: none;
+}
+.third-panel img {
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem black);
+}
 /*FOURTH PANEL - CONTACTS*/
 
 .fourth-panel {
@@ -45,4 +59,13 @@ body {
   border: 2px solid white;
   filter: drop-shadow(0 0 0.75rem white);
   border-radius: 15px;
+}
+.fourth-panel img {
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: transform 0.3s ease;
+}
+.fourth-panel img:hover {
+  transform: scale(1.2);
 }
