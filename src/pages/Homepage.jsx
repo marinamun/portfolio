@@ -26,7 +26,9 @@ const Homepage = () => {
           <p>Git and Github</p>
         </div>
       </div>
+
       <hr />
+
       <div className="third-panel">
         <h1>My favorite projects</h1>
         <div className="all-projects">
@@ -61,6 +63,33 @@ const Homepage = () => {
               src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
               style={{ width: "100px" }}
             />
+          </div>
+        </div>
+
+        <hr />
+
+        <div className="fourth-panel">
+          <h1>Contact me</h1>
+          <div className="all-contacts">
+            <a href="mailto:marinacerejidoo@gmail.com" target="_blank">
+              {" "}
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"
+                style={{ width: "40px" }}
+              />
+            </a>
+            <a href="www.linkedin.com/in/marinamun" target="_blank">
+              <img
+                src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473"
+                style={{ width: "40px" }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/marinamun/" target="_blank">
+              <img
+                src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                style={{ width: "40px" }}
+              />
+            </a>
           </div>
         </div>
       </div>
