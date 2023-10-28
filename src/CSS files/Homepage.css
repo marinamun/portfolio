@@ -1,8 +1,48 @@
-body{
-    
-    text-align: center;
-    
+body {
+  text-align: center;
 }
-.all-projects{
-    display: flex;
+
+/*FIRST PANEL*/
+.first-panel{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+/*SECOND PANEL - TECHNOLOGIES*/
+.second-panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #213547;
+  color: white;
+  border: 2px solid white;
+  filter: drop-shadow(0 0 0.75rem white);
+  border-radius: 15px;
+}
+/*THIRD PANEL - PROJECTS*/
+.third-panel {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.all-projects {
+  display: flex;
+}
+.homepage-project {
+  border: 2px solid #213547;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px 20px;
+}
+
+/*FOURTH PANEL - CONTACTS*/
+
+.fourth-panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  background-color: #213547;
+  color: white;
+  border: 2px solid white;
+  filter: drop-shadow(0 0 0.75rem white);
+  border-radius: 15px;
 }
