@@ -1,5 +1,7 @@
 body{
-    background-color: #e8f8f9;
+    
+    text-align: center;
+    
 }
 .all-projects{
     display: flex;
