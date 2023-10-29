@@ -6,24 +6,48 @@ body {
 .first-panel {
   margin-top: 120px;
   margin-bottom: 120px;
+  color: black;
+  background-image: url("../images/back.png");
+  background-size:cover;padding-bottom: 100px;
 }
 .profile-pic {
+    margin-top: 20px;
   border-radius: 90px;
-  filter: drop-shadow(0 0 0.75rem white);
+  margin-left: 70px;
+}
+.intro {
+    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 120px;
+
+  
+}
+
+.first-panel h1 {
+  font-size: 40px;
+}
+.first-panel h3 {
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 30px;
+  
 }
 /*SECOND PANEL - TECHNOLOGIES*/
 .second-panel {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #213547;
-  color: white;
-  border: 2px solid white;
-  filter: drop-shadow(0 0 0.75rem white);
-  border-radius: 15px;
+  color: black;
+  margin-bottom: 40px;
+}
+.second-panel h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 /*THIRD PANEL - PROJECTS*/
-h1 {
-  margin-bottom: 80px;
+.third-panel h1 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
 }
 .third-panel {
   padding-top: 40px;
@@ -31,34 +55,53 @@ h1 {
 }
 .all-projects {
   display: flex;
+  flex-direction: column;
 }
 .homepage-project {
-  border: 2px solid #213547;
-  border-radius: 10px;
+  color: black;
+
+  filter: drop-shadow(0 0 0.75rem #dddddd);
+  border-radius: 80px;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 15px 20px;
-  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding: 35px 50px;
+  background-color: white;transition: transform 0.3s ease;
+}.homepage-project:hover {
+  transform: scale(1.1); /* Scale the image by 1.1 times when hovered */
 }
+.inside-card {
+  display: flex;
+  
+}
+
 .third-panel a {
   color: #213547;
   text-decoration: none;
 }
-.third-panel img {
-  border-radius: 10px;
-  filter: drop-shadow(0 0 0.75rem black);
+.inside-card img {
+  margin-left: 70px;
+  margin-right: 30px;
 }
+
 /*FOURTH PANEL - CONTACTS*/
+.fourth-panel h1 {
+  font-size: 40px;
+}
 
 .fourth-panel {
   padding-top: 40px;
+
   padding-bottom: 40px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #213547;
-  color: white;
-  border: 2px solid white;
-  filter: drop-shadow(0 0 0.75rem white);
-  border-radius: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: #F1FFC8;
+  color: black;
+  border: 10px dotted #D6CDC8;
+  border-radius: 100px;
 }
 .fourth-panel img {
   border-radius: 50px;

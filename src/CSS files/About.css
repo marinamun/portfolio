@@ -1,3 +1,19 @@
 .about-container{
     display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.education-panel{
+    padding: 15px;
+    background-color: #F1FFC8;
+    margin-right: 50px;
+    border: 1px solid #F1FFC8;
+    border-radius: 25px;
+}
+.personal-panel{
+    padding: 15px;
+    background-color: #C8FFFF;
+    border: 1px solid #C8FFFF;
+    border-radius: 25px;
 }

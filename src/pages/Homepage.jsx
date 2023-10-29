@@ -1,80 +1,99 @@
 import "../CSS files/Homepage.css";
 import profile from "../images/profile.png";
-import cat from "../images/catmarket.png";
-import weather from "../images/weatherapp.png";
+import cats from "../images/cat.png";
+import weather from "../images/weather (2).png";
 import game from "../images/game.png";
+import skills from "../images/skills.png";
 const Homepage = () => {
   return (
     <>
       <div className="first-panel">
-        <h1>Full stack developer🌺</h1>
-        <img src={profile} style={{ width: "150px" }} className="profile-pic" />
-        <h3>Hi, my name is Marina</h3>
-        <h5>Welcome to my portfolio</h5>
+        <h1> Full-stack developer ready to contribute</h1>
+        <div className="intro">
+          <img
+            src={profile}
+            style={{ width: "150px" }}
+            className="profile-pic"
+          />
+          <h3>
+            👋🏼 Hi, my name is Marina
+            <br />
+            🌍 I'm a Spanish developer based in Berlin
+          </h3>
+        </div>
       </div>
 
       <div className="second-panel">
-        <div>
-          <h1>My expertise:</h1>
-        </div>
-        <div>
-          <p>HTML and CSS</p>
-          <p>JavaScript</p>
-          <p>React Framework</p>
-          <p>Node.js</p>
-          <p>Express</p>
-          <p>Mongo Databases</p>
-          <p>Git and Github</p>
-        </div>
+        <h1>Skills:</h1>
+        <img src={skills} style={{ width: "500px" }} />
       </div>
 
       <div className="third-panel">
-        <h1>My favorite projects</h1>
+        <h1>My favorite projects:</h1>
         <div className="all-projects">
           <div className="homepage-project">
-            <h3>Social media for coders</h3>
-            <h5>Full-stack app using React and Node.js</h5>
-            <img
-              src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
-              style={{ width: "100px" }}
-            />
+            <div className="inside-card">
+              <img
+                src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
+                style={{ width: "100px" }} 
+              />
+              <div>
+                <h3>Social media for coders</h3>
+                <h5>Full-stack app using React and Node.js</h5>
+              </div>
+            </div>
           </div>
 
           <div className="homepage-project">
-            <a
-              href="https://gilded-belekoy-c59aee.netlify.app/"
-              target="_blank"
-            >
-              <h3>Platform to buy and sell cats</h3>
-              <h5>Web app using React and a json server</h5>
-              <img src={cat} style={{ width: "200px" }} />
-            </a>
+            <div className="inside-card">
+              <img src={cats} style={{ width: "220px" }}  />
+              <div>
+                <h3>Platform to buy and sell cats</h3>
+                <h5>Web app using React and a json server</h5>
+                <a
+                  href="https://gilded-belekoy-c59aee.netlify.app/"
+                  target="_blank"
+                >
+                  Go
+                </a>
+              </div>
+            </div>
           </div>
           <div className="homepage-project">
-            <a
-              href="https://marinamun.github.io/catch-the-butterflies/"
-              target="_blank"
-            >
-              <h3>Cute game</h3>
-              <h5>Using JavaScript, HTML and CSS</h5>
+            <div className="inside-card">
               <img src={game} style={{ width: "220px" }} />
-            </a>
+              <div>
+                <h3>Cute game</h3>
+                <h5>Using JavaScript, HTML and CSS</h5>
+                <a
+                  href="https://marinamun.github.io/catch-the-butterflies/"
+                  target="_blank"
+                >
+                  Go
+                </a>
+              </div>
+            </div>
           </div>
           <div className="homepage-project">
-            <a
-              href="https://master--superlative-moonbeam-ee9553.netlify.app/"
-              target="_blank"
-            >
-              <h3>Weather app</h3>
+            <div className="inside-card">
+              <img src={weather} style={{ width: "220px" }} />
+              <div><h3>Weather app</h3>
               <h5>React app using an external API to fetch the data</h5>
-              <img src={weather} style={{ width: "200px" }} />
-            </a>
+<a href="https://master--superlative-moonbeam-ee9553.netlify.app/"
+              target="_blank"
+            >Go</a>
+
+              </div>
+            </div>
+            
+              
+           
           </div>
         </div>
       </div>
 
       <div className="fourth-panel">
-        <h1>Contact me</h1>
+        <h1>Contact me:</h1>
         <div className="all-contacts">
           <a href="mailto:marinacerejidoo@gmail.com" target="_blank">
             {" "}
