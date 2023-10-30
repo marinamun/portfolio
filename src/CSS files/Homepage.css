@@ -1,6 +1,13 @@
 body {
   text-align: center;
 }
+.new{
+  font-family: 'Caprasimo', serif;
+  font-size: 40px;
+  margin: 20px 40px;
+  color: black;
+
+}
 
 /*FIRST PANEL*/
 .first-panel {

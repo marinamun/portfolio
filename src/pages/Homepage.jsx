@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <>
       <div className="first-panel">
-        <h1> Full-stack developer ready to contribute</h1>
+        <h1> Full-stack developer</h1>
         <div className="intro">
           <img
             src={profile}
@@ -35,7 +35,7 @@ const Homepage = () => {
             <div className="inside-card">
               <img
                 src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
-                style={{ width: "100px" }} 
+                style={{ width: "100px" }}
               />
               <div>
                 <h3>Social media for coders</h3>
@@ -46,7 +46,7 @@ const Homepage = () => {
 
           <div className="homepage-project">
             <div className="inside-card">
-              <img src={cats} style={{ width: "220px" }}  />
+              <img src={cats} style={{ width: "220px" }} />
               <div>
                 <h3>Platform to buy and sell cats</h3>
                 <h5>Web app using React and a json server</h5>
@@ -77,17 +77,17 @@ const Homepage = () => {
           <div className="homepage-project">
             <div className="inside-card">
               <img src={weather} style={{ width: "220px" }} />
-              <div><h3>Weather app</h3>
-              <h5>React app using an external API to fetch the data</h5>
-<a href="https://master--superlative-moonbeam-ee9553.netlify.app/"
-              target="_blank"
-            >Go</a>
-
+              <div>
+                <h3>Weather app</h3>
+                <h5>React app using an external API to fetch the data</h5>
+                <a
+                  href="https://master--superlative-moonbeam-ee9553.netlify.app/"
+                  target="_blank"
+                >
+                  Go
+                </a>
               </div>
             </div>
-            
-              
-           
           </div>
         </div>
       </div>
@@ -115,6 +115,15 @@ const Homepage = () => {
             />
           </a>
         </div>
+      </div>
+
+      <div className="new">
+        You might think I’m just another developer. And it is true. But I’m also
+        very focused on learning and becoming better. So have no doubt, that I
+        will give my all in my next job. I’m excited to be part of a team, build
+        together and learn from and with them. A pawn might move slowly and seem
+        irrelevant, but it can reach its fullest potential by becoming a queen
+        and wining. I’m the pown.
       </div>
     </>
   );
