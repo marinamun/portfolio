@@ -12,19 +12,37 @@ const Homepage = () => {
         <div className="intro">
           <img
             src={profile}
-            style={{ width: "150px" }}
+            style={{ width: "190px" }}
             className="profile-pic"
           />
           <h3>
-            👋🏼 Hi, my name is Marina
+            👋🏼 Hi, my name is Marina and I'm a Spanish
             <br />
-            🌍 I'm a Spanish developer based in Berlin
+            developer based in Berlin. I might not be the most
+            <br />
+            experienced one, but be sure that I will give put all the work
+            <br />
+            to be the missing piece of your team.
           </h3>
         </div>
       </div>
 
       <div className="second-panel">
         <h1>Skills:</h1>
+        <div className="all-skills">
+          <h3>
+            <div className="skill">HTML</div>&nbsp;•&nbsp;
+            <div className="skill">CSS</div>&nbsp;•&nbsp;
+            <div className="skill"> JAVASCRIPT</div>&nbsp;•&nbsp;
+            <div className="skill"> REACT</div>&nbsp;•&nbsp;
+            <div className="skill"> NODE.JS</div>&nbsp;•&nbsp;
+            <div className="skill"> EXPRESS</div>&nbsp;•&nbsp;
+            <div className="skill"> MONGO DB</div>&nbsp;•&nbsp;
+            <div className="skill">GIT</div>&nbsp;•&nbsp;
+            <div className="skill"> GITHUB</div>
+          </h3>
+        </div>
+
         <img src={skills} style={{ width: "500px" }} />
       </div>
 
@@ -33,12 +51,8 @@ const Homepage = () => {
         <div className="all-projects">
           <div className="homepage-project">
             <div className="inside-card">
-              <img
-                src="https://img.freepik.com/premium-vector/business-bag-semi-flat-color-vector-object-leather-office-briefcase-carrying-important-documents-daily-essentials-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-5722.jpg"
-                style={{ width: "100px" }}
-              />
               <div>
-                <h3>Social media for coders</h3>
+                <h3>SOCIAL MEDIA</h3>
                 <h5>Full-stack app using React and Node.js</h5>
               </div>
             </div>
@@ -46,46 +60,37 @@ const Homepage = () => {
 
           <div className="homepage-project">
             <div className="inside-card">
-              <img src={cats} style={{ width: "220px" }} />
               <div>
-                <h3>Platform to buy and sell cats</h3>
+                <h3>ONLINE MARKET</h3>
                 <h5>Web app using React and a json server</h5>
                 <a
                   href="https://gilded-belekoy-c59aee.netlify.app/"
                   target="_blank"
-                >
-                  Go
-                </a>
+                ></a>
               </div>
             </div>
           </div>
           <div className="homepage-project">
             <div className="inside-card">
-              <img src={game} style={{ width: "220px" }} />
               <div>
-                <h3>Cute game</h3>
+                <h3>GAME</h3>
                 <h5>Using JavaScript, HTML and CSS</h5>
                 <a
                   href="https://marinamun.github.io/catch-the-butterflies/"
                   target="_blank"
-                >
-                  Go
-                </a>
+                ></a>
               </div>
             </div>
           </div>
           <div className="homepage-project">
             <div className="inside-card">
-              <img src={weather} style={{ width: "220px" }} />
               <div>
-                <h3>Weather app</h3>
+                <h3>WEATHER APP</h3>
                 <h5>React app using an external API to fetch the data</h5>
                 <a
                   href="https://master--superlative-moonbeam-ee9553.netlify.app/"
                   target="_blank"
-                >
-                  Go
-                </a>
+                ></a>
               </div>
             </div>
           </div>
@@ -115,15 +120,6 @@ const Homepage = () => {
             />
           </a>
         </div>
-      </div>
-
-      <div className="new">
-        You might think I’m just another developer. And it is true. But I’m also
-        very focused on learning and becoming better. So have no doubt, that I
-        will give my all in my next job. I’m excited to be part of a team, build
-        together and learn from and with them. A pawn might move slowly and seem
-        irrelevant, but it can reach its fullest potential by becoming a queen
-        and wining. I’m the pown.
       </div>
     </>
   );
