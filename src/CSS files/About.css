@@ -2,7 +2,17 @@
     display: flex;
     margin-left: 90px;
     margin-right: 90px;
+    margin-top: 50px;
     
+}
+.about-container h3{
+    color: #282A36;
+    font-size: 30px;
+}
+.about-container p{
+    text-align: justify;
+    padding: 5px 15px;
+    line-height: 2;
 }
 .education-panel{
     padding: 15px;
