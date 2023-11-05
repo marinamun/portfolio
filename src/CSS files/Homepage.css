@@ -223,12 +223,14 @@ hr {
     font-size: 20px;
     margin: 0 auto;
     text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .second-panel .all-skills {
     display: none;
   }
   .all-skills img {
-    width: 60%;
+    width: 100px;
   }
   .third-panel .all-projects {
     flex-direction: column;
