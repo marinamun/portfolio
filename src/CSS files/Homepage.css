@@ -52,7 +52,7 @@ h4 {
 .first-panel h1 {
   font-size: 40px;
 }
-.first-panel h3 {
+.first-panel h4 {
   text-align: left;
   margin-top: 60px;
   margin-left: 30px;
@@ -218,19 +218,47 @@ hr {
   .first-panel img {
     display: none;
   }
-  .second-panel .all-skills{
+  .first-panel h4 {
+    padding: 2px 10px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  .second-panel .all-skills {
     display: none;
   }
-  .third-panel .all-projects{
-    flex-direction: column;
-    align-items: center;
-  }.third-panel .homepage-project{
+  .all-skills img {
     width: 60%;
   }
-  .fourth-panel a{
+  .third-panel .all-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-panel .homepage-project {
+    width: 60%;
+  }
+  .fourth-panel a {
     font-size: 25px;
     margin-left: 15px;
     margin-right: 15px;
-
+  }
+  .fourth-panel {
+    background-color: #282a36;
+    filter: drop-shadow(0 0 0.25rem #282a36);
+    border: 0px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  .fourth-panel h1 {
+    font-size: 35px;
+  }
+  .fourth-panel a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    filter: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
   }
 }
