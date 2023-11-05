@@ -34,6 +34,7 @@ const Homepage = () => {
         <h1>Skills:</h1>
         <div className="all-skills">
           <h3>
+            <div className="skill-list">
             <div className="skill">HTML</div>&nbsp;•&nbsp;
             <div className="skill">CSS</div>&nbsp;•&nbsp;
             <div className="skill"> JAVASCRIPT</div>&nbsp;•&nbsp;
@@ -42,11 +43,11 @@ const Homepage = () => {
             <div className="skill"> EXPRESS</div>&nbsp;•&nbsp;
             <div className="skill"> MONGO DB</div>&nbsp;•&nbsp;
             <div className="skill">GIT</div>&nbsp;•&nbsp;
-            <div className="skill"> GITHUB</div>
+            <div className="skill"> GITHUB</div></div>
           </h3>
         </div>
 
-        <img src={skills} style={{ width: "500px" }} />
+        <img src={skills} />
         <hr />
       </div>
 
