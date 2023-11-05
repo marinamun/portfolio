@@ -215,8 +215,8 @@ hr {
   border-radius: 50px;
   margin-top: 100px;
 }
-@media (max-width: 1200px){
-  .first-panel img{
+@media (max-width: 1200px) {
+  .first-panel img {
     display: none;
   }
 }
@@ -244,14 +244,14 @@ hr {
     display: flex;
     flex-direction: column;
   } */
-  .skill-list{
+  .skill-list {
     display: flex;
     flex-direction: column;
   }
-  .second-panel img  {
+  .second-panel img {
     display: none;
   }
-  .all-skills{
+  .all-skills {
     flex-direction: column;
   }
   .third-panel .all-projects {
@@ -274,7 +274,7 @@ hr {
     margin-top: 5px;
   }
   .fourth-panel h1 {
-    font-size: 35px;
+    font-size: 25px;
   }
   .fourth-panel a {
     font-size: 20px;
