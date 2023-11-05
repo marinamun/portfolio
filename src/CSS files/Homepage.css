@@ -215,7 +215,7 @@ hr {
   margin-top: 100px;
 }
 @media (max-width: 800px) {
-  .first-panel{
+  .first-panel {
     margin-left: 5px;
     margin-right: 5px;
   }
@@ -230,11 +230,15 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
   }
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .second-panel .all-skills {
     display: none;
   }
   .all-skills img {
-    width: 100px;
+    width: 50px;
   }
   .third-panel .all-projects {
     flex-direction: column;
