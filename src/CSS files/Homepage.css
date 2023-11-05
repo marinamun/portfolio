@@ -215,6 +215,10 @@ hr {
   margin-top: 100px;
 }
 @media (max-width: 800px) {
+  .first-panel{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   .first-panel img {
     display: none;
   }
