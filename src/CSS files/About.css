@@ -36,8 +36,8 @@
   .about-container {
     flex-direction: column;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .education-panel {
     width: 60%;
