@@ -13,7 +13,9 @@ nav {
 }
 nav p {
   color: #282A36;
+  
 }
 nav a {
-  margin-right: 80px; /* Add a margin to create space between the links */
+  margin-right: 80px; /* Add a margin to create space between the links */text-decoration: none;
+  font-weight: bold;
 }

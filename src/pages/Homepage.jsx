@@ -18,15 +18,11 @@ const Homepage = () => {
           />
           <h4>
             👋🏼 Hi, my name is <span className="highlighted-words">Marina</span>{" "}
-            and I'm a <span className="highlighted-words">Spanish</span>
-            <br />
+            and I'm a <span className="highlighted-words">Spanish </span>
             <span className="highlighted-words">developer</span> based in
             <span className="highlighted-words"> Berlin</span>. I might not be
-            the most
-            <br />
-            experienced one, but be sure that I will put all the
-            <span className="highlighted-words"> work</span>
-            <br />
+            the most experienced one, but be sure that I will put all the
+            <span className="highlighted-words"> work </span>
             to be the missing piece of your
             <span className="highlighted-words"> team</span>.
           </h4>
@@ -140,10 +136,6 @@ const Homepage = () => {
                     Try it
                   </a>
                 </div>
-                <a
-                  href="https://marinamun.github.io/catch-the-butterflies/"
-                  target="_blank"
-                ></a>
               </div>
             </div>
           </div>

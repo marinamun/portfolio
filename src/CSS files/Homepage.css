@@ -8,7 +8,6 @@ h1 {
 }
 
 h3 {
-  
   font-family: "Caprasimo", serif;
   color: #fafafa;
 }
@@ -188,27 +187,25 @@ h4 {
   filter: drop-shadow(0 0 0.25rem white);
 }
 
-
-.all-contacts{
+.all-contacts {
   display: flex;
   justify-content: space-around;
   font-family: "Raleway", sans-serif;
-  
 }
 .fourth-panel a {
   box-shadow: inset 0 0 0 0 #54b3d6;
   font-size: 30px;
   margin-bottom: 20px;
-  
+
   color: #54b3d6;
-  padding: 0 .25rem;
-  margin: 0 -.25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .fourth-panel a:hover {
   color: #fff;
-  box-shadow: inset 200px 0 0 0 #54b3d6;;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
 }
 
 hr {
@@ -216,4 +213,24 @@ hr {
   border: 0.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 50px;
   margin-top: 100px;
+}
+@media (max-width: 800px) {
+  .first-panel img {
+    display: none;
+  }
+  .second-panel .all-skills{
+    display: none;
+  }
+  .third-panel .all-projects{
+    flex-direction: column;
+    align-items: center;
+  }.third-panel .homepage-project{
+    width: 60%;
+  }
+  .fourth-panel a{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+  }
 }

@@ -2,12 +2,12 @@ import "../CSS files/About.css";
 const About = () => {
   return (
     <>
-      <h1>About me</h1>
+      <h1 className="about">About me</h1>
       <div className="about-container">
         <div className="education-panel">
           <h3>Education</h3>
           <p>
-            During my time at Ironhack's full-stack boot camp, I immersed myself
+            During my time at Ironhack's full-stack bootcamp, I immersed myself
             in intensive coding classes and projects. Through this hands-on
             experience, I mastered both front-end and back-end development.
             Since then, I've continued my learning journey independently, diving
