@@ -38,7 +38,9 @@ h4 {
 .profile-pic {
   margin-top: 20px;
   border-radius: 90px;
+  width: auto;
   margin-left: 70px;
+ 
   filter: drop-shadow(0 0 0.25rem white);
 }
 .intro {
@@ -56,6 +58,7 @@ h4 {
   text-align: left;
   margin-top: 60px;
   margin-left: 30px;
+  font-size: 20px;
 }
 /*SECOND PANEL - TECHNOLOGIES*/
 .second-panel {
