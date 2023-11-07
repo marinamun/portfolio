@@ -11,11 +11,7 @@ const Homepage = () => {
       <div className="first-panel">
         <h1> Full-stack developer</h1>
         <div className="intro">
-          <img
-            src={profile}
-            style={{ width: "195px" }}
-            className="profile-pic"
-          />
+          <img src={profile} style={{ width: "20%" }} className="profile-pic" />
           <h4>
             Hi!👋🏼My name is <span className="highlighted-words">Marina</span>{" "}
             and I'm a junior{" "}
