@@ -17,14 +17,17 @@ const Homepage = () => {
             className="profile-pic"
           />
           <h4>
-            👋🏼 Hi, my name is <span className="highlighted-words">Marina</span>{" "}
-            and I'm a <span className="highlighted-words">Spanish </span>
-            <span className="highlighted-words">developer</span> based in
-            <span className="highlighted-words"> Berlin</span>. I might not be
-            the most experienced one, but be sure that I will put all the
-            <span className="highlighted-words"> work </span>
-            to be the missing piece of your
-            <span className="highlighted-words"> team</span>.
+            Hi!👋🏼My name is <span className="highlighted-words">Marina</span>{" "}
+            and I'm a junior{" "}
+            <span className="highlighted-words">full-stack developer</span>{" "}
+            based in <span className="highlighted-words">Berlin</span>. I'm
+            driven to learn and improve,{" "}
+            <span className="highlighted-words">dedicated</span> to becoming
+            your perfect team addition. As evidence of my determination, I
+            acquired my technical skills and{" "}
+            <span className="highlighted-words">successfully</span> completed
+            four projects within a mere 10-week span. Scroll down to check my
+            projects!
           </h4>
         </div>
         <hr />
@@ -35,15 +38,16 @@ const Homepage = () => {
         <div className="all-skills">
           <h3>
             <div className="skill-list">
-            <div className="skill">HTML</div>&nbsp;•&nbsp;
-            <div className="skill">CSS</div>&nbsp;•&nbsp;
-            <div className="skill"> JAVASCRIPT</div>&nbsp;•&nbsp;
-            <div className="skill"> REACT</div>&nbsp;•&nbsp;
-            <div className="skill"> NODE.JS</div>&nbsp;•&nbsp;
-            <div className="skill"> EXPRESS</div>&nbsp;•&nbsp;
-            <div className="skill"> MONGO DB</div>&nbsp;•&nbsp;
-            <div className="skill">GIT</div>&nbsp;•&nbsp;
-            <div className="skill"> GITHUB</div></div>
+              <div className="skill">HTML</div>&nbsp;•&nbsp;
+              <div className="skill">CSS</div>&nbsp;•&nbsp;
+              <div className="skill"> JAVASCRIPT</div>&nbsp;•&nbsp;
+              <div className="skill"> REACT</div>&nbsp;•&nbsp;
+              <div className="skill"> NODE.JS</div>&nbsp;•&nbsp;
+              <div className="skill"> EXPRESS</div>&nbsp;•&nbsp;
+              <div className="skill"> MONGO DB</div>&nbsp;•&nbsp;
+              <div className="skill">GIT</div>&nbsp;•&nbsp;
+              <div className="skill"> GITHUB</div>
+            </div>
           </h3>
         </div>
 
