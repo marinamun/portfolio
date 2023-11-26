@@ -11,7 +11,11 @@ const Homepage = () => {
       <div className="first-panel">
         <h1> Full-stack developer</h1>
         <div className="intro">
-          <img src={profile} style={{ width: "250px" }} className="profile-pic" />
+          <img
+            src={profile}
+            style={{ width: "250px" }}
+            className="profile-pic"
+          />
           <h4>
             Hi!👋🏼My name is <span className="highlighted-words">Marina</span>{" "}
             and I'm a junior{" "}
@@ -38,8 +42,9 @@ const Homepage = () => {
               <div className="skill">CSS</div>&nbsp;•&nbsp;
               <div className="skill"> JAVASCRIPT</div>&nbsp;•&nbsp;
               <div className="skill"> REACT</div>&nbsp;•&nbsp;
+              <div className="skill"> TYPESCRIPT</div>&nbsp;•&nbsp;
               <div className="skill"> NODE.JS</div>&nbsp;•&nbsp;
-              <div className="skill"> EXPRESS</div>&nbsp;•&nbsp;
+              <div className="skill"> EXPRESS.JS</div>&nbsp;•&nbsp;
               <div className="skill"> MONGO DB</div>&nbsp;•&nbsp;
               <div className="skill">GIT</div>&nbsp;•&nbsp;
               <div className="skill"> GITHUB</div>
