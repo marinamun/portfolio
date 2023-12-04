@@ -5,6 +5,7 @@ import weather from "../images/weatherphoto.png";
 import game from "../images/gamephoto.png";
 import coders from "../images/lordofcoders.png";
 import skills from "../images/skills.png";
+import achieve from "../images/achieve.png";
 const Homepage = () => {
   return (
     <>
@@ -165,6 +166,34 @@ const Homepage = () => {
                   <a
                     id="button-right"
                     href="https://master--superlative-moonbeam-ee9553.netlify.app/"
+                    target="_blank"
+                  >
+                    Try it
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="homepage-project">
+            <div className="inside-card">
+              <div>
+                <img src={achieve} style={{ width: "200px" }} />
+                <h3>TASK TRACKER</h3>
+                <h5>
+                  An app to add tasks with deadlines and mark them as completed
+                  when finished. Made using TypeScript, React and CSS.
+                </h5>
+                <div className="project-buttons">
+                  <a
+                    id="button-left"
+                    href="https://github.com/marinamun/typescript-toDo"
+                    target="_blank"
+                  >
+                    Repository
+                  </a>
+                  <a
+                    id="button-right"
+                    href="https://achieve-tasktracker.netlify.app/"
                     target="_blank"
                   >
                     Try it
