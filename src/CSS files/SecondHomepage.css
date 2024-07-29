@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* Dark overlay */ url("../images/catpainting.jpg"); /* Background image */
+  background-size: cover;
+  font-family: "Victor Mono", monospace;
+  
+}
+
+.homepage-panel1 {
+  display: flex;
+  flex-direction: row;
+  /*   border: 1px solid white;
+ */
+  align-items: center;
+  text-align: center;
+}
+.homepage-panel1 img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 180px;
+  filter: drop-shadow(0 0 0.75rem white);
+}

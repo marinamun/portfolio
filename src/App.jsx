@@ -4,14 +4,15 @@ import Homepage from "./pages/Homepage";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
+import SecondHomepage from "./pages/SecondHomepage";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About/>}/>
+        <Route path="/" element={<SecondHomepage />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </>
   );
