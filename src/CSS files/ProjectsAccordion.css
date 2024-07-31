@@ -1,3 +1,8 @@
+/* Ensure box-sizing is applied to all elements */
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -6,54 +11,68 @@ p,
 a,
 button {
   font-family: "Victor Mono", monospace;
-} /* Style the buttons that are used to open and close the accordion panel */
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 80%; /* Ensure the button has the same width as the panel */
   text-align: left;
   border: none;
   outline: none;
-  transition: 0.4s;
+  transition: background-color 0.4s; /* Smooth background color transition */
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
   background-color: #ccc;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Style the accordion panel */
 .panel {
-  padding: 0 18px;
-  background-color: black;
-  max-height: 0; /* Hide by default */
+  padding: 0; /* Remove additional padding to align with button */
+  background-color: red;
+  width: 80%; /* Ensure the panel has the same width as the button */
+  margin: 0 auto; /* Center the panel */
   overflow: hidden;
+  max-height: 0; /* Hide by default */
   transition: max-height 0.4s ease-out; /* Smooth transition */
 }
 
 /* Show the panel when it is active */
 .panel.show {
-  max-height: 200px; /* Adjust based on content */
+  max-height: 500px; /* Adjust based on content, ensure it is sufficient for content */
 }
-.project-name{
-    font-size: 25px;
+
+.project-name {
+  font-size: 25px;
+  opacity: 0.8;
+  font-weight: bolder;
 }
+
+.project-inside {
+  background-color: black;
+  opacity: 0.9;
+}
+
 .projects-tech {
   font-style: italic;
   font-size: 20px;
   margin-bottom: 30px;
 }
+
 .project-btns {
   margin-bottom: 30px;
 }
+
 .project-btn {
   color: white;
   text-decoration: none;
   margin-right: 20px;
-  border: .8px solid white;
+  border: 0.8px solid white;
   padding: 10px;
   border-radius: 15px;
 }

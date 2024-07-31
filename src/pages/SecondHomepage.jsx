@@ -1,6 +1,9 @@
+import React from "react";
 import profile from "../images/profile.png";
 import "../CSS files/SecondHomepage.css";
 import Projects from "../components/ProjectsAccordion";
+import goldfinch from "../images/goldfinch.jpg";
+
 const SecondHomepage = () => {
   return (
     <>
@@ -64,6 +67,37 @@ const SecondHomepage = () => {
 
       <div className="homepage-panel3">
         <Projects />
+      </div>
+      <div className="homepage-panel4">
+        <div>
+          <img src={goldfinch} />
+        </div>
+        <div className="cvs">
+          <a
+            className="cv-btn"
+            href="https://www.canva.com/design/DAF8Idh455c/7iYtUY1V-On0cOO8KpFoyA/edit?utm_content=DAF8Idh455c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank"
+          >
+            CV
+          </a>
+          <a
+            className="cv-btn"
+            href="https://www.canva.com/design/DAF8ITsYW9w/c9JU-NC9gLfAvM9JzTi1FQ/edit?utm_content=DAF8ITsYW9w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            target="_blank"
+          >
+            Lebenslauf
+          </a>
+        </div>
+      </div>
+
+      <div className="homepage-panel5">
+        <a
+          href="mailto:marinacerejidoo@gmail.com"
+          class="email-btn"
+          className="email"
+        >
+          ~ Contact Me ~
+        </a>
       </div>
     </>
   );
