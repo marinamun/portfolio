@@ -1,9 +1,16 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     /* Dark overlay */ url("../images/catpainting.jpg"); /* Background image */
   background-size: cover;
   font-family: "Victor Mono", monospace;
-  
+}
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: "Victor Mono", monospace;
 }
 
 .homepage-panel1 {
@@ -20,3 +27,69 @@ body {
   border-radius: 180px;
   filter: drop-shadow(0 0 0.75rem white);
 }
+
+.homepage-panel2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+}
+.panel2-row {
+  display: flex;
+  flex-direction: row;
+}
+.to-the-left {
+  margin-left: 4vw;
+}
+.to-the-right {
+  margin-right: 4vw;
+}
+.panel2-row p {
+  border: 1px solid white;
+  border-radius: 30%;
+  color: white;
+  margin-left: 20px;
+  padding: 15px;
+  overflow: hidden; /* Hide overflow */
+  position: relative; /* Create a containing block for the inner wrapper */
+  width: 150px; /* Set a fixed width for the paragraph */
+  height: 40px; /* Set a fixed height for the paragraph */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
+.panel2-row p span {
+  display: inline-block;
+  white-space: nowrap; /* Prevent the text from wrapping */
+  position: absolute; /* Position the span relative to the parent p */
+  left: 50%; /* Center the text horizontally */
+  transform: translateX(-50%); /* Center the text horizontally */
+  transition: transform 0.5s ease; /* Smooth transition when not hovered */
+}
+
+.panel2-row p:hover span {
+  animation: scroll-text 4s linear infinite; /* Run the animation on hover */
+}
+
+/* Keyframes for scrolling text */
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0%); /* Start position: centered */
+  }
+  100% {
+    transform: translateX(
+      -100%
+    ); /* Move text completely out of view to the left */
+  }
+}
+
+
+
+
+
+
+
