@@ -1,10 +1,17 @@
-import React from "react";
-import profile from "../images/profile.png";
+import React, { useEffect } from "react";
+import profile from "../images/profilepic.png";
+
 import "../CSS files/SecondHomepage.css";
 import Projects from "../components/ProjectsAccordion";
 import goldfinch from "../images/goldfinch.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const SecondHomepage = () => {
+  //Initialize aos to add scrolling animation
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <div className="homepage-panel1">
@@ -15,7 +22,7 @@ const SecondHomepage = () => {
           boxing. I’m excited at the prospect of joining your team :)
         </h4>
       </div>
-      <div className="homepage-panel2">
+      <div className="homepage-panel2" data-aos="fade-right">
         <h1>MY TECH STACK</h1>
         <div className="tech-stack">
           <div className="panel2-row to-the-left">
@@ -25,7 +32,7 @@ const SecondHomepage = () => {
             <p>
               <span>CSS</span>
             </p>
-            <p>
+            <p className="bigger-name">
               <span>JAVASCRIPT</span>
             </p>
           </div>
@@ -36,15 +43,15 @@ const SecondHomepage = () => {
             <p>
               <span>REACT</span>
             </p>
-            <p>
+            <p className="bigger-name">
               <span>EXPRESS.JS</span>
             </p>
           </div>
           <div className="panel2-row to-the-left">
-            <p>
+            <p className="bigger-name">
               <span>MONGODB</span>
             </p>
-            <p>
+            <p className="bigger-name">
               <span>FIREBASE</span>
             </p>
             <p>
@@ -55,20 +62,20 @@ const SecondHomepage = () => {
             <p>
               <span>GITHUB</span>
             </p>
-            <p>
-              <span>RESPONSIVE DESIGN</span>
+            <p className="bigger-name">
+              <span>RESPONSIVE</span>
             </p>
-            <p>
+            <p className="bigger-name">
               <span>DEPLOYMENT</span>
             </p>
           </div>
         </div>
       </div>
 
-      <div className="homepage-panel3">
+      <div className="homepage-panel3" data-aos="fade-left">
         <Projects />
       </div>
-      <div className="homepage-panel4">
+      <div className="homepage-panel4" data-aos="fade-right">
         <div>
           <img src={goldfinch} />
         </div>

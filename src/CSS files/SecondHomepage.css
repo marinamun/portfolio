@@ -2,8 +2,11 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     /* Dark overlay */ url("../images/catpainting.jpg"); /* Background image */
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   font-family: "Victor Mono", monospace;
 }
+
 h1,
 h2,
 h3,
@@ -22,11 +25,18 @@ a {
   align-items: center;
   text-align: center;
 }
+
 .homepage-panel1 img {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   border-radius: 180px;
-  filter: drop-shadow(0 0 0.75rem white);
+  border: 3px solid white;
+  /*   filter: drop-shadow(0 0 0.75rem white); 
+ */
+}
+
+.homepage-panel1 h4 {
+  padding: 15px 50px;
 }
 
 .homepage-panel2 {
@@ -35,59 +45,70 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
 .tech-stack {
   display: flex;
   flex-direction: column;
 }
+
 .panel2-row {
   display: flex;
   flex-direction: row;
 }
+
 .to-the-left {
   margin-left: 4vw;
 }
+
 .to-the-right {
   margin-right: 4vw;
 }
+
 .panel2-row p {
-  border: 1px solid white;
-  border-radius: 30%;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 25px 25px 25px 25px;
   color: white;
   margin-left: 20px;
   padding: 15px;
   overflow: hidden; /* Hide overflow */
   position: relative; /* Create a containing block for the inner wrapper */
-  width: 150px; /* Set a fixed width for the paragraph */
-  height: 40px; /* Set a fixed height for the paragraph */
+  min-width: 130px; /* Set a fixed width for the paragraph */
+  height: 50px; /* Set a fixed height for the paragraph */
   display: flex;
   align-items: center; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
+  transition: filter 0.3s ease;
 }
-
+.bigger-name {
+  width: 180px;
+}
 .panel2-row p span {
   display: inline-block;
   white-space: nowrap; /* Prevent the text from wrapping */
   position: absolute; /* Position the span relative to the parent p */
-  left: 50%; /* Center the text horizontally */
+  left: 50%; /* Start the text centered */
   transform: translateX(-50%); /* Center the text horizontally */
   transition: transform 0.5s ease; /* Smooth transition when not hovered */
 }
 
 .panel2-row p:hover span {
-  animation: scroll-text 4s linear infinite; /* Run the animation on hover */
+  animation: scroll-text 2s linear infinite; /* Run the animation on hover */
+}
+.panel2-row p:hover {
+  filter: drop-shadow(0 0 0.75rem white);
 }
 
 /* Keyframes for scrolling text */
 @keyframes scroll-text {
   0% {
-    transform: translateX(0%); /* Start position: centered */
+    transform: translateX(100%); /* Start outside the right boundary */
   }
   100% {
-    transform: translateX(
-      -100%
-    ); /* Move text completely out of view to the left */
+    transform: translateX(-300%); /* Move completely out of view to the left */
   }
 }
+
 .homepage-panel3 {
   margin-top: 90px;
 }
