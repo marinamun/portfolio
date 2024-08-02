@@ -76,3 +76,18 @@ button {
   padding: 10px;
   border-radius: 15px;
 }
+
+@media (max-width: 800px) {
+  /* .panel {
+    width: 90%;
+  } */
+  .project-name {
+    width: 100%;
+  }
+  .project-inside {
+    width: 100%;
+  }.project-btn{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
