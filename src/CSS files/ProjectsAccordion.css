@@ -78,6 +78,9 @@ button {
 }
 
 @media (max-width: 800px) {
+  .accordion-container {
+    width: 100%; /* Ensure container is responsive */
+  }
   /* .panel {
     width: 90%;
   } */
@@ -86,7 +89,8 @@ button {
   }
   .project-inside {
     width: 100%;
-  }.project-btn{
+  }
+  .project-btn {
     margin-right: 5px;
     margin-left: 5px;
   }

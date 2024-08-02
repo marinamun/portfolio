@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     /* Dark overlay */ url("../images/catpainting.jpg"); /* Background image */
@@ -5,6 +8,9 @@ body {
   background-attachment: fixed;
   background-position: center;
   font-family: "Victor Mono", monospace;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
 }
 
 h1,
