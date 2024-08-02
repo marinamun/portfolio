@@ -78,9 +78,13 @@ button {
 }
 
 @media (max-width: 800px) {
-  .accordion-container {
-    width: 100%; /* Ensure container is responsive */
+  body {
+    overflow-x: hidden;
   }
+  /* .accordion-container {
+    width: 100%; /* Ensure container is responsive */
+  /* } */
+  */
   /* .panel {
     width: 90%;
   } */
