@@ -155,3 +155,38 @@ a {
   color: white;
   font-size: 20px;
 }
+
+
+
+@media (max-width: 800px){
+  .homepage-panel1{
+    flex-direction: column;
+  }
+  .homepage-panel1 h4{
+    font-size: 18px;
+    padding: 10px 2px;
+  }.panel2-row {
+  display: flex;
+  flex-direction: column;
+}
+.panel2-row p{
+  font-size: 17px;
+} 
+
+.to-the-left {
+  margin-left: 0vw;
+}
+
+.to-the-right {
+  margin-right: 0vw;
+}.homepage-panel4 {
+  
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}.homepage-panel4 img{
+  margin-right: 0px;
+  width: 100px;
+}
+}
