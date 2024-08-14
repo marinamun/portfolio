@@ -54,10 +54,42 @@ const ProjectsAccordion = () => {
         }`}
         onClick={() => handleAccordionClick(1)}
       >
-        ONLINE CAT MARKET
+        PLAY CHESS
       </button>
       <div
         className={`panel ${activeIndex === 1 ? "show" : ""} project-inside`}
+      >
+        <p className="projects-tech">React, CSS</p>
+        <div className="project-btns">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://bazu-chess.netlify.app/"
+            className="project-btn"
+          >
+            Try it
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/marinamun/chess"
+            className="project-btn"
+          >
+            Check the code
+          </a>
+        </div>
+      </div>
+
+      <button
+        className={`accordion project-name ${
+          activeIndex === 2 ? "active" : ""
+        }`}
+        onClick={() => handleAccordionClick(2)}
+      >
+        ONLINE CAT MARKET
+      </button>
+      <div
+        className={`panel ${activeIndex === 2 ? "show" : ""} project-inside`}
       >
         <p className="projects-tech">HTML, CSS, React</p>
         <div className="project-btns">
@@ -82,14 +114,14 @@ const ProjectsAccordion = () => {
 
       <button
         className={`accordion project-name ${
-          activeIndex === 2 ? "active" : ""
+          activeIndex === 3 ? "active" : ""
         }`}
-        onClick={() => handleAccordionClick(2)}
+        onClick={() => handleAccordionClick(3)}
       >
         BUTTERFLY GAME
       </button>
       <div
-        className={`panel ${activeIndex === 2 ? "show" : ""} project-inside`}
+        className={`panel ${activeIndex === 3 ? "show" : ""} project-inside`}
       >
         <p className="projects-tech">HTML, CSS, JavaScript</p>
         <div className="project-btns">
@@ -114,14 +146,14 @@ const ProjectsAccordion = () => {
 
       <button
         className={`accordion project-name ${
-          activeIndex === 3 ? "active" : ""
+          activeIndex === 4 ? "active" : ""
         }`}
-        onClick={() => handleAccordionClick(3)}
+        onClick={() => handleAccordionClick(4)}
       >
         WEATHER APP
       </button>
       <div
-        className={`panel ${activeIndex === 3 ? "show" : ""} project-inside`}
+        className={`panel ${activeIndex === 4 ? "show" : ""} project-inside`}
       >
         <p className="projects-tech">React, CSS</p>
         <div className="project-btns">
