@@ -27,6 +27,10 @@ const ProjectsAccordion = () => {
       <div
         className={`panel ${activeIndex === 0 ? "show" : ""} project-inside`}
       >
+        <p>
+          Ask and answer coding questions. Includes authentication, profile
+          creation and a database.{" "}
+        </p>
         <p className="projects-tech">React, Node.js, Express.js, MongoDB</p>
         <div className="project-btns">
           <a
@@ -59,6 +63,7 @@ const ProjectsAccordion = () => {
       <div
         className={`panel ${activeIndex === 1 ? "show" : ""} project-inside`}
       >
+        <p>Play chess against one of our 3 chess bots</p>
         <p className="projects-tech">React, CSS</p>
         <div className="project-btns">
           <a
@@ -91,6 +96,10 @@ const ProjectsAccordion = () => {
       <div
         className={`panel ${activeIndex === 2 ? "show" : ""} project-inside`}
       >
+        <p>
+          Post an ad to sell your cat or buy one. No cat was harmed in the
+          process.
+        </p>
         <p className="projects-tech">HTML, CSS, React</p>
         <div className="project-btns">
           <a
@@ -123,6 +132,7 @@ const ProjectsAccordion = () => {
       <div
         className={`panel ${activeIndex === 3 ? "show" : ""} project-inside`}
       >
+        <p>Catch the butterflies and run away from the mosquitos</p>
         <p className="projects-tech">HTML, CSS, JavaScript</p>
         <div className="project-btns">
           <a
@@ -155,6 +165,11 @@ const ProjectsAccordion = () => {
       <div
         className={`panel ${activeIndex === 4 ? "show" : ""} project-inside`}
       >
+        <p>
+          Check the weather in your favourite city. Unless you are in Berlin,
+          <br />
+          then you know it's always cloudy or raining.
+        </p>
         <p className="projects-tech">React, CSS</p>
         <div className="project-btns">
           <a

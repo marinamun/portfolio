@@ -77,17 +77,16 @@ button {
   border-radius: 15px;
 }
 
+.project-btn:hover {
+  filter: drop-shadow(0 0 0.75rem white);
+  border: 1.2px solid white;
+}
+
 @media (max-width: 800px) {
   body {
     overflow-x: hidden;
   }
-  /* .accordion-container {
-    width: 100%; /* Ensure container is responsive */
-  /* } */
-  */
-  /* .panel {
-    width: 90%;
-  } */
+
   .project-name {
     width: 100%;
   }
