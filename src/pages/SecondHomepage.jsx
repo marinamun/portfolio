@@ -46,6 +46,9 @@ const SecondHomepage = () => {
             <p className="bigger-name">
               <span>EXPRESS.JS</span>
             </p>
+            <p className="bigger-name">
+              <span>TYPESCRIPT</span>
+            </p>
           </div>
           <div className="panel2-row to-the-left">
             <p className="bigger-name">
