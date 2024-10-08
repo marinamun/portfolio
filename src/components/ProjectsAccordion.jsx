@@ -15,6 +15,44 @@ const ProjectsAccordion = () => {
   return (
     <>
       <h1>FAVOURITE PROJECTS</h1>
+      <button
+        className={`accordion project-name ${
+          activeIndex === 5 ? "active" : ""
+        }`}
+        onClick={() => handleAccordionClick(5)}
+      >
+        MIX OF SPOTIFY AND YOUTUBE
+      </button>
+      <div
+        className={`panel ${activeIndex === 5 ? "show" : ""} project-inside`}
+      >
+        <p>
+          View detailed song info, curate favorite tracks in your profile, and{" "}
+          <br />
+          enjoy music and videos without needing a Spotify Premium account.
+        </p>
+        <p className="projects-tech">
+          React, Firebase, Spotify and YouTube APIs
+        </p>
+        <div className="project-btns">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://spotitube.netlify.app/"
+            className="project-btn"
+          >
+            Try it
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/marinamun/myspotify"
+            className="project-btn"
+          >
+            Check the code
+          </a>
+        </div>
+      </div>
 
       <button
         className={`accordion project-name ${
