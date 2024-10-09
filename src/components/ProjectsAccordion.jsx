@@ -32,7 +32,7 @@ const ProjectsAccordion = () => {
           enjoy music and videos without needing a Spotify Premium account.
         </p>
         <p className="projects-tech">
-          React, Firebase, Spotify and YouTube APIs
+          React, Node.js, Firebase, Spotify and YouTube APIs
         </p>
         <div className="project-btns">
           <a
