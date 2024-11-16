@@ -29,7 +29,7 @@ const ProjectsAccordion = () => {
         <p>
           Social media app to create posts, interact with them and chat with other users.
         </p>
-        <p className="projects-tech">React, Node.js, Express.js, MongoDB</p>
+        <p className="projects-tech">React, Node.js, Express.js, MongoDB, Socket.IO</p>
         <div className="project-btns">
           <a
             target="_blank"
