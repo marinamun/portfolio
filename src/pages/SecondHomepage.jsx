@@ -35,6 +35,9 @@ const SecondHomepage = () => {
             <p className="bigger-name">
               <span>JAVASCRIPT</span>
             </p>
+             <p>
+              <span>JAVA</span>
+            </p>
           </div>
           <div className="panel2-row to-the-right">
             <p>
@@ -51,6 +54,9 @@ const SecondHomepage = () => {
             </p>
           </div>
           <div className="panel2-row to-the-left">
+             <p>
+              <span>SQL</span>
+            </p>
             <p className="bigger-name">
               <span>MONGODB</span>
             </p>

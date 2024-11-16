@@ -17,17 +17,51 @@ const ProjectsAccordion = () => {
       <h1>FAVOURITE PROJECTS</h1>
       <button
         className={`accordion project-name ${
+          activeIndex === 0 ? "active" : ""
+        }`}
+        onClick={() => handleAccordionClick(0)}
+      >
+        BEE SOCIAL🐝
+      </button>
+      <div
+        className={`panel ${activeIndex === 0 ? "show" : ""} project-inside`}
+      >
+        <p>
+          Social media app to create posts, interact with them and chat with other users.
+        </p>
+        <p className="projects-tech">React, Node.js, Express.js, MongoDB</p>
+        <div className="project-btns">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://bee-social.netlify.app/"
+            className="project-btn"
+          >
+            Try it
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/marinamun/socials-frontend"
+            className="project-btn"
+          >
+            Check the code
+          </a>
+        </div>
+      </div>
+      <button
+        className={`accordion project-name ${
           activeIndex === 5 ? "active" : ""
         }`}
         onClick={() => handleAccordionClick(5)}
       >
-        MIX OF SPOTIFY AND YOUTUBE
+        SPOTITUBE
       </button>
       <div
         className={`panel ${activeIndex === 5 ? "show" : ""} project-inside`}
       >
         <p>
-          View detailed song info, curate favorite tracks in your profile, and{" "}
+          Mix of Youtube and Spotify: View detailed song info, curate favorite tracks in your profile, and{" "}
           <br />
           enjoy music and videos without needing a Spotify Premium account.
         </p>
@@ -54,41 +88,7 @@ const ProjectsAccordion = () => {
         </div>
       </div>
 
-      <button
-        className={`accordion project-name ${
-          activeIndex === 0 ? "active" : ""
-        }`}
-        onClick={() => handleAccordionClick(0)}
-      >
-        SOCIAL MEDIA FOR CODERS
-      </button>
-      <div
-        className={`panel ${activeIndex === 0 ? "show" : ""} project-inside`}
-      >
-        <p>
-          Ask and answer coding questions. Includes authentication, profile
-          creation and a database.{" "}
-        </p>
-        <p className="projects-tech">React, Node.js, Express.js, MongoDB</p>
-        <div className="project-btns">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://lord-of-the-coders.netlify.app/"
-            className="project-btn"
-          >
-            Try it
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/marinamun/frontend-project-coders"
-            className="project-btn"
-          >
-            Check the code
-          </a>
-        </div>
-      </div>
+      
 
       <button
         className={`accordion project-name ${
@@ -123,7 +123,7 @@ const ProjectsAccordion = () => {
         </div>
       </div>
 
-      <button
+      {/* <button
         className={`accordion project-name ${
           activeIndex === 2 ? "active" : ""
         }`}
@@ -157,7 +157,7 @@ const ProjectsAccordion = () => {
             Check the code
           </a>
         </div>
-      </div>
+      </div> */}
 
       <button
         className={`accordion project-name ${
