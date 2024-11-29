@@ -51,20 +51,21 @@ const ProjectsAccordion = () => {
       </div>
       <button
         className={`accordion project-name ${
-          activeIndex === 5 ? "active" : ""
+          activeIndex === 1 ? "active" : ""
         }`}
-        onClick={() => handleAccordionClick(5)}
+        onClick={() => handleAccordionClick(1)}
       >
         SPOTITUBE
       </button>
       <div
-        className={`panel ${activeIndex === 5 ? "show" : ""} project-inside`}
+        className={`panel ${activeIndex === 1 ? "show" : ""} project-inside`}
       >
         <p>
           Mix of Youtube and Spotify: View detailed song info, curate favorite tracks in your profile, and{" "}
           <br />
           enjoy music and videos without needing a Spotify Premium account.
         </p>
+        <p style={{fontSize:"10px"}}>Note: This project is hosted on Render's free tier, which may take up to 50 seconds to load the first time due to instance spin-up.</p>
         <p className="projects-tech">
           React, Node.js, Firebase, Spotify and YouTube APIs
         </p>
@@ -92,14 +93,14 @@ const ProjectsAccordion = () => {
 
       <button
         className={`accordion project-name ${
-          activeIndex === 1 ? "active" : ""
+          activeIndex === 2 ? "active" : ""
         }`}
-        onClick={() => handleAccordionClick(1)}
+        onClick={() => handleAccordionClick(2)}
       >
         PLAY CHESS
       </button>
       <div
-        className={`panel ${activeIndex === 1 ? "show" : ""} project-inside`}
+        className={`panel ${activeIndex === 2 ? "show" : ""} project-inside`}
       >
         <p>Play chess against one of our 3 chess bots</p>
         <p className="projects-tech">React, CSS</p>
@@ -159,16 +160,45 @@ const ProjectsAccordion = () => {
         </div>
       </div> */}
 
+
       <button
         className={`accordion project-name ${
           activeIndex === 3 ? "active" : ""
         }`}
         onClick={() => handleAccordionClick(3)}
       >
-        BUTTERFLY GAME
+        TYPING GAME
       </button>
       <div
         className={`panel ${activeIndex === 3 ? "show" : ""} project-inside`}
+      >
+        <p>
+          Game that challenges players to improve their typing speed and accuracy.
+        </p>
+        <p className="projects-tech">Java</p>
+        <p style={{marginTop:"2px"}}>Clone the repo and run the JAR file to play the game</p>
+        <div className="project-btns">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/marinamun/TypingGame"
+            className="project-btn"
+          >
+            Check the code
+          </a>
+        </div>
+      </div>
+
+      <button
+        className={`accordion project-name ${
+          activeIndex === 4 ? "active" : ""
+        }`}
+        onClick={() => handleAccordionClick(4)}
+      >
+        BUTTERFLY GAME
+      </button>
+      <div
+        className={`panel ${activeIndex === 4 ? "show" : ""} project-inside`}
       >
         <p>Catch the butterflies and run away from the mosquitos</p>
         <p className="projects-tech">HTML, CSS, JavaScript</p>
@@ -194,14 +224,14 @@ const ProjectsAccordion = () => {
 
       <button
         className={`accordion project-name ${
-          activeIndex === 4 ? "active" : ""
+          activeIndex === 5 ? "active" : ""
         }`}
-        onClick={() => handleAccordionClick(4)}
+        onClick={() => handleAccordionClick(5)}
       >
         WEATHER APP
       </button>
       <div
-        className={`panel ${activeIndex === 4 ? "show" : ""} project-inside`}
+        className={`panel ${activeIndex === 5 ? "show" : ""} project-inside`}
       >
         <p>
           Check the weather in your favourite city. Unless you are in Berlin,
